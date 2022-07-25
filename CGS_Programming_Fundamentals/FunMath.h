@@ -8,6 +8,6 @@ private:
 
 public:
 	static void doSumOfThreeNumbers();
-	//int numCubed(int num);
+	static void doCubeNumber();
 };
 

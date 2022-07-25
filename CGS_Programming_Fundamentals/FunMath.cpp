@@ -26,3 +26,15 @@ void FunMath::doSumOfThreeNumbers()
 
 	cout << "The sum of " << num1 << " + " << num2 << " + " << num3 << " = " << FunMath::sumOfThreeNumbers(num1, num2, num3) << endl;
 }
+
+void FunMath::doCubeNumber()
+{
+	cout << "Enter a number to cube" << endl;
+
+	int num;
+	cin >> num;
+	
+	int numCubed = num * num * num;
+
+	cout << num << " cubed is " << numCubed << endl;
+}
