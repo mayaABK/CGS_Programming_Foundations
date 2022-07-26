@@ -139,13 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FactorCalculator.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="FunMath.cpp" />
+    <ClCompile Include="LeapYearCalculator.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FactorCalculator.h" />
     <ClInclude Include="FunMath.h" />
     <ClInclude Include="HelloWorld.h" />
+    <ClInclude Include="LeapYearCalculator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
