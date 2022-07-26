@@ -15,7 +15,7 @@ int LeapYearCalculator::getValidYearInput()
 	bool isValidYear;
 	do
 	{
-		cout << "Enter a year to see if it's a leap year:";
+		cout << "Enter a year to see if it's a leap year: ";
 		cin >> year;
 
 		isValidYear = !cin.fail() && (year >= 0);
