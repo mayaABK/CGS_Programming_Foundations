@@ -1,6 +1,6 @@
 #include "HelloWorld.h"
 #include "FunMath.h"
-//#include "FunMath.h"
+#include "LeapYearCalculator.h"
 
 int main()
 {
@@ -8,5 +8,7 @@ int main()
 
 	FunMath::doSumOfThreeNumbers();
 	FunMath::doCubeNumber();
+
+	LeapYearCalculator::checkLeapYear();
 	return 1;
 }
