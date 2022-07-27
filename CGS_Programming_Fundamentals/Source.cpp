@@ -2,6 +2,7 @@
 #include "FunMath.h"
 #include "LeapYearCalculator.h"
 #include "FactorCalculator.h"
+#include "ArrayManipulation.h"
 
 int main()
 {
@@ -13,6 +14,8 @@ int main()
 	LeapYearCalculator::checkLeapYear();
 
 	FactorCalculator::findFactors();
+
+	ArrayManipulation::findLargestArrayValue();
 
 	return 1;
 }

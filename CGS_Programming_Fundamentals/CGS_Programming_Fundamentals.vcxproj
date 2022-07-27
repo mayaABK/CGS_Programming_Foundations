@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ArrayManipulation.cpp" />
     <ClCompile Include="FactorCalculator.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="FunMath.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArrayManipulation.h" />
     <ClInclude Include="FactorCalculator.h" />
     <ClInclude Include="FunMath.h" />
     <ClInclude Include="HelloWorld.h" />
