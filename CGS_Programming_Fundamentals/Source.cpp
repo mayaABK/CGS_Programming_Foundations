@@ -3,6 +3,7 @@
 #include "LeapYearCalculator.h"
 #include "FactorCalculator.h"
 #include "ArrayManipulation.h"
+#include "VehicleTest.h"
 
 int main()
 {
@@ -16,6 +17,8 @@ int main()
 	FactorCalculator::findFactors();
 
 	ArrayManipulation::findLargestArrayValue();
+
+	VehicleTest::run();
 
 	return 1;
 }

@@ -139,19 +139,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Airplane.cpp" />
     <ClCompile Include="ArrayManipulation.cpp" />
     <ClCompile Include="FactorCalculator.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="FunMath.cpp" />
     <ClCompile Include="LeapYearCalculator.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Boat.cpp" />
+    <ClCompile Include="VehicleTest.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Airplane.h" />
     <ClInclude Include="ArrayManipulation.h" />
     <ClInclude Include="FactorCalculator.h" />
     <ClInclude Include="FunMath.h" />
+    <ClInclude Include="Boat.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="VehicleTest.h" />
     <ClInclude Include="HelloWorld.h" />
     <ClInclude Include="LeapYearCalculator.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
